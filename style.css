@@ -5,10 +5,10 @@
     padding-left: 30px;
     margin: auto;
 }
-.carousel-item{
+.slider-area .carousel-item{
     position: relative;
 }
-.card{
+.slider-area .card{
     background-color: #FFF3E3;
     border: none;
     padding: 25px;
@@ -17,23 +17,23 @@
     right: 70px;
 }
 
-.card h5{
+.slider-area .card h5{
     font-size: 15px;
     font-weight: 600;
     color: #333;
 }
-.card h2{
+.slider-area .card h2{
     font-size: 52px;
     font-weight: 700;
     color: #B88E2F;
 }
-.card p{
+.slider-area .card p{
     font-size: 18px;
     font-weight: 500;
     color: #333;
     margin-bottom: 50px;
 }
-.card .btn{
+.slider-area .card .btn{
     font-size: 16px;
     font-weight: 700;
     background-color: #B88E2F;
@@ -41,4 +41,29 @@
     border-radius: 0;
     border: none;
 
+}
+.browse-item{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.browse-text h3{
+    font-size: 32px;
+    color: #333;
+}
+.browse-text p{
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 50px;
+}
+.browse-item .card{
+    border: none;
+}
+.browse-item .card h5{
+    font-size: 24px;
+    margin-top: 10px;
+}
+.browse-item a{
+    text-decoration: none;
+    
+    color: #333;
 }
