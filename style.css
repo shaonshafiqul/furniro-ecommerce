@@ -5,3 +5,40 @@
     padding-left: 30px;
     margin: auto;
 }
+.carousel-item{
+    position: relative;
+}
+.card{
+    background-color: #FFF3E3;
+    border: none;
+    padding: 25px;
+    position: absolute;
+    top: 210px;
+    right: 70px;
+}
+
+.card h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #333;
+}
+.card h2{
+    font-size: 52px;
+    font-weight: 700;
+    color: #B88E2F;
+}
+.card p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 50px;
+}
+.card .btn{
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #B88E2F;
+    padding: 25px 72px;
+    border-radius: 0;
+    border: none;
+
+}
