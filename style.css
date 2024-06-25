@@ -37,9 +37,14 @@
     font-size: 16px;
     font-weight: 700;
     background-color: #B88E2F;
-    padding: 25px 72px;
+    padding: 23px 70px;
     border-radius: 0;
-    border: none;
+    border: 3px solid #B88E2F;
+
+}
+.slider-area .card .btn:hover {
+    color: #B88E2F;
+    background-color: #FFF3E3;
 
 }
 .browse-item{
@@ -66,4 +71,70 @@
     text-decoration: none;
     
     color: #333;
+}
+.products{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.products h3{
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 40px;
+}
+.products .card{
+    border-radius: 0;
+    box-shadow: 0px 0px 15px #00000038 ;
+}
+.products .card .card-img-top{
+    border-radius: 0;
+}
+.products .card .card-title{
+    color: #3a3a3a;
+    font-size: 24px;
+    font-weight: 600;
+}
+.products .card .card-text{
+    color: #898989;
+    font-size: 16px;
+    font-weight: 500;
+}
+.products .card .price{
+    color: #3a3a3a;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sohow-btn .btn{
+    font-size: 16px;
+    color: #B88E2F;
+    border: 2px solid#B88E2F;
+    padding: 12px 72px;
+    border-radius: 0;
+    margin-top: 30px;
+}
+.sohow-btn .btn:hover{
+    color: #fff;
+    background-color: #B88E2F;
+}
+.gallary{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.gallary h5{
+    font-size: 20px;
+    color: #616161;
+}
+.gallary h3{
+    font-size: 40px;
+    color: #3A3A3A;
+}
+footer{
+    
+    font-size: 16px;
+    color: #616161;
+    margin: auto;
+    width: 80%;
+    padding-top: 20px;
+    border-top: 1px solid #D9D9D9;
+
 }
